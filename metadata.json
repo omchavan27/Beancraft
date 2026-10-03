@@ -1,0 +1,6 @@
+{
+  "name": "BeanCraft – Restaurant Management System",
+  "description": "A simple, attractive, fully working college DBMS project for restaurant management featuring MySQL database, React, Express, and JWT authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

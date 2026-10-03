@@ -1,0 +1,164 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --color-coffee-dark: #2C1810;
+  --color-coffee-primary: #3E2723;
+  --color-coffee-medium: #5D4037;
+  --color-coffee-accent: #C67C4E;
+  --color-coffee-light: #8D6E63;
+  --color-cream-bg: #FAF6F0;
+  --color-cream-card: #FFFFFF;
+  --color-cream-border: #EADBCE;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-bg);
+  color: #2D2522;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .brand-font {
+  font-family: var(--font-serif);
+}
+
+/* Custom theme utilities */
+.bg-coffee-dark {
+  background-color: var(--color-coffee-dark) !important;
+}
+
+.bg-coffee {
+  background-color: var(--color-coffee-primary) !important;
+}
+
+.bg-coffee-medium {
+  background-color: var(--color-coffee-medium) !important;
+}
+
+.bg-coffee-accent {
+  background-color: var(--color-coffee-accent) !important;
+}
+
+.bg-cream {
+  background-color: var(--color-cream-bg) !important;
+}
+
+.bg-cream-card {
+  background-color: var(--color-cream-card) !important;
+}
+
+.text-coffee-dark {
+  color: var(--color-coffee-dark) !important;
+}
+
+.text-coffee {
+  color: var(--color-coffee-primary) !important;
+}
+
+.text-coffee-accent {
+  color: var(--color-coffee-accent) !important;
+}
+
+.border-coffee {
+  border-color: var(--color-cream-border) !important;
+}
+
+.btn-coffee {
+  background-color: var(--color-coffee-accent);
+  color: #ffffff;
+  border: 1px solid var(--color-coffee-accent);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-coffee:hover {
+  background-color: #A96235;
+  color: #ffffff;
+  border-color: #A96235;
+  transform: translateY(-1px);
+}
+
+.btn-coffee-dark {
+  background-color: var(--color-coffee-primary);
+  color: #ffffff;
+  border: 1px solid var(--color-coffee-primary);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-coffee-dark:hover {
+  background-color: var(--color-coffee-dark);
+  color: #ffffff;
+  border-color: var(--color-coffee-dark);
+}
+
+.btn-coffee-outline {
+  background-color: transparent;
+  color: var(--color-coffee-primary);
+  border: 1.5px solid var(--color-coffee-primary);
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-coffee-outline:hover {
+  background-color: var(--color-coffee-primary);
+  color: #ffffff;
+}
+
+.card-beancraft {
+  background: #ffffff;
+  border: 1px solid var(--color-cream-border);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(44, 24, 16, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-beancraft:hover {
+  box-shadow: 0 8px 24px rgba(44, 24, 16, 0.09);
+}
+
+.badge-status-pending {
+  background-color: #FEF3C7;
+  color: #92400E;
+  font-weight: 600;
+}
+
+.badge-status-preparing {
+  background-color: #DBEAFE;
+  color: #1E40AF;
+  font-weight: 600;
+}
+
+.badge-status-completed {
+  background-color: #D1FAE5;
+  color: #065F46;
+  font-weight: 600;
+}
+
+.badge-status-cancelled {
+  background-color: #FEE2E2;
+  color: #991B1B;
+  font-weight: 600;
+}
+
+.badge-status-confirmed {
+  background-color: #D1FAE5;
+  color: #065F46;
+  font-weight: 600;
+}
+
+.navbar-beancraft {
+  background-color: var(--color-coffee-dark);
+  border-bottom: 2px solid var(--color-coffee-accent);
+}
+
+.sidebar-beancraft {
+  background-color: #ffffff;
+  border-right: 1px solid var(--color-cream-border);
+  min-height: calc(100vh - 65px);
+}
